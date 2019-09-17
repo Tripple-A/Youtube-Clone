@@ -3,10 +3,32 @@
 nav#navbar{
     background-color: #ffffff;
     padding: 20px 40px;
+    text-align:center
 }
 
 nav li{
     display: inline;
+}
+
+#sign-in{
+    float:right;
+    width:7%;
+    background: blue;
+}
+
+#search-bar{
+    width:50%
+}
+
+#list-icon{
+    float:left;
+
+}
+
+#youtube-logo{
+    float:left;
+    padding-left:3%;
+    
 }
 
 /* Language alert window styles */
