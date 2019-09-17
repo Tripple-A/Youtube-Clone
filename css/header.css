@@ -1,34 +1,60 @@
 /* Whole header styles */
+
 /* Navbar styles */
 nav#navbar{
     background-color: #ffffff;
     padding: 20px 40px;
-    text-align:center
 }
 
-nav li{
+nav#navbar li.nav-link{
     display: inline;
 }
 
-#sign-in{
-    float:right;
-    width:7%;
-    background: blue;
-}
 
-#search-bar{
-    width:50%
-}
-
-#list-icon{
+nav#navbar li.nav-link #list-icon{
+    font-size: 25px;
     float:left;
-
 }
 
-#youtube-logo{
+nav#navbar li.nav-link #youtube-logo{
     float:left;
-    padding-left:3%;
-    
+    padding: 0px 20px 0px 20px;
+    /* margin-top: -3px; */
+}
+
+
+nav#navbar li.nav-link #search-bar{
+    border: 1px solid gray; 
+    width:50%;
+    font-size: 20px;
+    float:left;
+}
+
+nav#navbar li.nav-link #search-icon{
+    border: 1px solid gray; 
+    padding: 5px 40px;
+    font-size: 15px;
+    margin-right: 20px;
+    float: left;
+}
+
+nav#navbar li.nav-link #upload-icon{
+    font-size: 25px;
+}
+
+
+nav#navbar li.nav-link #sign-in{
+    border: 1px solid dodgerblue; 
+    padding: 3px 10px;
+    font-size: 15px;
+    background: dodgerblue;
+    color: white;
+    border-radius: 2px;
+    margin-left: 20px;
+}
+
+nav#navbar li.nav-link #sign-in:hover{
+    background: rgb(54, 150, 247);
 }
 
 /* Language alert window styles */
