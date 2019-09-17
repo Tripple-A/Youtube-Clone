@@ -26,8 +26,10 @@ nav#navbar li.nav-link #youtube-logo{
 nav#navbar li.nav-link #search-bar{
     border: 1px solid gray; 
     width:50%;
-    font-size: 20px;
+    font-size: 15.5px;
     float:left;
+    padding: 3.5px 0px;
+    padding-left: 10px;
 }
 
 nav#navbar li.nav-link #search-icon{
