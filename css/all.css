@@ -14,13 +14,22 @@ p, i, div {
     color: gray;
 }
 
-#wrapper{ 
+/* #wrapper{ 
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-}
+} */
 
 a{
     color: dodgerblue;
     text-decoration: none;
+}
+
+/* Utility Classes */
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
 }

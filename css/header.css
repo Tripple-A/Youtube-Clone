@@ -22,6 +22,10 @@ nav#navbar li.nav-link #youtube-logo{
     /* margin-top: -3px; */
 }
 
+nav#navbar li.nav-link#search{
+    /* margin-left: auto; */
+    margin: 0px auto;
+}
 
 nav#navbar li.nav-link #search-bar{
     border: 1px solid gray; 
@@ -63,3 +67,32 @@ nav#navbar li.nav-link #sign-in:hover{
 }
 
 /* Language alert window styles */
+#language-alert-window{
+    /* padding: 10px 40px; */
+    background: white;
+    margin-top: 10px;
+    border: 2px solid dodgerblue;
+}
+
+#language-alert-window #language-alert-window-header{
+     padding: 5px 30px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#language-alert-window #language-alert-window-header i{
+    color: #ffffff;
+    /* padding: 0px 5px; */
+}
+
+#language-alert-window #language-alert-window-header i#close{
+    float: right;
+}
+
+#language-alert-window #language-alert-window-body{
+    padding: 10px 40px;
+ }
+
+#language-alert-window #language-alert-window-body p{
+    color: black;
+}
