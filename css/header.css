@@ -1,0 +1,12 @@
+/* Whole header styles */
+/* Navbar styles */
+nav#navbar{
+    background-color: #ffffff;
+    padding: 20px 40px;
+}
+
+nav li{
+    display: inline;
+}
+
+/* Language alert window styles */
