@@ -29,7 +29,8 @@
             <section><button id="sign-in">Sign In</button></section>
         </nav>
         <div id="language-alert-window">
-            <div id="language-alert-window-header"><i class="fa fa-user"></i><i class="fa fa-question"></i> &nbsp;&nbsp;Choose your language. <i id="close" class="fa fa-window-close"></i></div>
+            <div id="language-alert-window-header"><i class="fa fa-user"></i><i class="fa fa-question"></i> 
+                &nbsp;&nbsp;Choose your language. <i id="close" class="fa fa-window-close"></i></div>
             <div id="language-alert-window-body">
                 <p>You're viewing YouTube in <strong> English (US).</strong> You can<a href=""> change this preference below.</a> <a href="#" class="pull-right">Learn more</a></p>
             </div>
@@ -60,6 +61,13 @@
 </div>
 <hr id="blue-line">
 <hr id="hr-line">
+<div id="add-ons">
+<section><i class="fa fa-plus"></i> Add to</section>
+<section><i class="fa fa-share"></i> Share</section>
+<i class="fa fa-suitcase"></i> More
+<i class="fa fa-thumbs-up"></i> 329
+<i class="fa fa-thumbs-down"></i> 134
+</div>
 </div>
 
 </section>
@@ -81,14 +89,71 @@
            <div id="show-more"><a href="">SHOW MORE</a></div>
 </div>
 <div id="loading">
-        <i class="fa fa-spinner"></i> 
+    <section id="loading-text">
+        <i class="fa fa-spinner"></i> Loading
+        </section>
    </div>  
     </main>
     <aside id="aside">  
         This is the side bar
     </aside>
     <footer id="footer">
-        This is the footer
+        <nav id="footer1">
+            <ul>
+              <li><img id="youtube-footer" src="images/youtube-logo.png"></li>
+           <li><select name="language">
+               <option > 
+                   <i class="fa fa-user"></i> Language:<b>English</b>
+               </option>
+           </select>
+        </li>  
+        <li>
+            <select>
+                <option value="location">
+                 Location:Netherlands
+                </option>
+            </select>
+        </li>  
+        <li>
+            <select name="mode">
+                <option value="mode">
+                    Restricted Mode:Off
+                </option>
+            </select>
+        </li>
+        <li>
+            <button>
+                <i class="fa fa-hourglass"></i> History
+            </button>
+        </li>
+        <li>
+            <button>
+                <i class="fa fa-question-circle"></i>Help
+            </button>
+        </li>
+
+                </ul>
+        </nav>
+       <hr>
+       
+       <nav id="footer2">
+           <ul>
+               <li>About</li>
+               <li>Press</li>
+               <li>Copyright</li>
+               <li>Creators</li>
+               <li>Advertise</li>
+               <li>Developers</li>
+           </ul>
+       </nav>
+       <nav id="footer3">
+           <ul>
+               <li> Terms</li>
+               <li>Privacy</li>
+               <li>Policy & Safety</li>
+               <li>Test new features</li>
+           </ul>
+       </nav>
     </footer>
     </div>
 </body>
