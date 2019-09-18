@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,83 +15,180 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <div id="wrapper">
-    <header id="header">
-        <nav id="navbar">
-            <section><i  id="list-icon" class="fa fa-list"></i></section>
-            <section><img id="youtube-logo" src="images/youtube-logo.png" alt="logo" width="100"></section>
-            <section id="search">
-                <form action="#">
-                    <input placeholder="Search" type="text" name="search" id="search-bar"><i id="search-icon" class="fa fa-search"></i>
-                </form>
-            </section>
-            <section><i class="fa fa-upload" id="upload-icon"></i></section>
-            <section><button id="sign-in">Sign In</button></section>
-        </nav>
-        <div id="language-alert-window">
-            <div id="language-alert-window-header"><i class="fa fa-user"></i><i class="fa fa-question"></i> 
-                &nbsp;&nbsp;Choose your language. <i id="close" class="fa fa-window-close"></i></div>
-            <div id="language-alert-window-body">
-                <p>You're viewing YouTube in <strong> English (US).</strong> You can<a href=""> change this preference below.</a> <a href="#" class="pull-right">Learn more</a></p>
+        <header id="header">
+            <nav id="navbar">
+                <section><i id="list-icon" class="fa fa-list"></i></section>
+                <section><img id="youtube-logo" src="images/youtube-logo.png" alt="logo" width="100"></section>
+                <section id="search">
+                    <form action="#">
+                        <input placeholder="Search" type="text" name="search" id="search-bar"><i id="search-icon"
+                            class="fa fa-search"></i>
+                    </form>
+                </section>
+                <section><i class="fa fa-upload" id="upload-icon"></i></section>
+                <section><button id="sign-in">Sign In</button></section>
+            </nav>
+            <div id="language-alert-window">
+                <div id="language-alert-window-header"><i class="fa fa-user"></i><i class="fa fa-question"></i>
+                    &nbsp;&nbsp;Choose your language. <i id="close" class="fa fa-window-close"></i></div>
+                <div id="language-alert-window-body">
+                    <p>You're viewing YouTube in <strong> English (US).</strong> You can<a href=""> change this
+                            preference below.</a> <a href="#" class="pull-right">Learn more</a></p>
+                </div>
             </div>
-        </div>
-    </header>
-    <main id="main">
-        <div>
-<iframe id="youtube-video"  width="800" height="400"src="https://www.youtube.com/embed/we2IveDp1lg/?controls=1"></iframe>
-</div>
-<section id="youtube-title">
-<p id="odin-title">Contributing to Open Source Part I: The Easy Way</p>
-<div id="all">
-<div id="odin-logo">
-<p id="tee">T</p>
-</div>
-<div id="aside-info">
-<a id="project">The Odin Project</a>
-<div id="subnum">
-<div id="subscribe">
-    <i id="subscribe-icon"class="fa fa-youtube"></i> 
-    <a id="subscribe-text">Subscribe</a>
-</div>
-    <div id="number"><p>799</p></div>
-</div>
-</div>
-<div id="views"><p id="view" >50,500 views</p></div>
+        </header>
+        <div id="main-content">
+            <main id="main">
+                <div>
+                    <iframe id="youtube-video" src="https://www.youtube.com/embed/we2IveDp1lg/?controls=1"></iframe>
+                </div>
 
-</div>
+                <section id="youtube-title">
+                    <h1 id="odin-title">Contributing to Open Source Part I: The Easy Way</h1>
+                    <div id="all">
+                        <div id="odin-logo">
+                            <p id="tee">T</p>
+                        </div>
 
-<hr id="hr-line">
+                        <div id="aside-info">
+                            <div>
+                                <a id="project">The Odin Project</a>
+                            </div>
+                            <div id="subnum">
+                                <div id="subscribe">
+                                    <i id="subscribe-icon" class="fa fa-youtube-play"></i>
+                                    <a id="subscribe-text">Subscribe</a>
+                                </div>
+                                <div id="number">
+                                    <p>799</p>
+                                </div>
+                            </div>
+                        </div>
 
-</div>
+                        <div id="views">
+                            <p id="view">50,500 views</p>
+                        </div>
+                    </div>
 
-</section>
-<div id="section2">
-        <p id="explanation">
-               <b> Published on Feb 27, 2014</b><br>
-                How do you contribute to open source? In this video, 
-                I'll describe the easiest way to make a simple contribution
-                 to an open source project -- without using the command line, 
-                 a text editor, "forking a repo", or even touching Git outside of Github. 
-                 I'll also describe what kinds of contributions open source software projects
-                  are typically looking for. As an example, I use submitting a student solution
-                   to a web development exercise from The Odin Project, a free online curriculum 
-                   for learning web development with Ruby on Rails. You can find more information
-                    about that project at http://theodinproject.com.
+                    <hr id="blue-line">
+                    <hr id="hr-line">
+
+                    <div id="share-bar">
+                        <div class="pull-left">
+                            <span><i class="fa fa-plus"></i> Add to</span>
+                            <span><i class="fa fa-share"></i> Share</span>
+                            <span><i class="fa fa-ellipsis-h"></i> More</span>
+                        </div>
+                        <div class="pull-right">
+                            <span><i class="fa fa-thumbs-up"></i> 1234</span>
+                            <span><i class="fa fa-thumbs-down"></i> 456</span>
+                        </div>
+                    </div>
+
+                </section>
+
+                <div id="section2">
+                    <p id="explanation" class="text-black">
+                        <b > Published on Feb 27, 2014</b><br>
+                        How do you contribute to open source? In this video,
+                        I'll describe the easiest way to make a simple contribution
+                        to an open source project -- without using the command line,
+                        a text editor, "forking a repo", or even touching Git outside of Github.
+                        I'll also describe what kinds of contributions open source software projects
+                        are typically looking for. As an example, I use submitting a student solution
+                        to a web development exercise from The Odin Project, a free online curriculum
+                        for learning web development with Ruby on Rails. You can find more information
+                        about that project at http://theodinproject.com.
                 
-        </p>
-           <hr> 
-           <div id="show-more"><a href="">SHOW MORE</a></div>
-</div>
-<div id="loading">
-    <section id="loading-text">
-        <i class="fa fa-spinner"></i> Loading
-        </section>
-   </div>  
-    </main>
-    <aside id="aside">  
-        This is the side bar
-    </aside>
+                    </p>
+                    <hr>
+                    <div id="show-more"><a href="#" class="text-gray">SHOW MORE</a></div>
+                </div>
+                <div id="loading">
+                    <span><i class="fa fa-spinner"></i> loading</span>
+                </div>
+            </main>
+            <aside id="aside">
+                <section id="autoplay" class="sidebar-image">
+                        <span class="pull-left text-black">Up Next</span>
+                        <span class="pull-right text-gray">Autoplay <i class="fa fa-info-circle"></i></span>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <hr>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="https://via.placeholder.com/200x120" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Some Heading</h3>
+                        <span class="channel">Some Channel</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+            </aside>
+<!-- 
+        <main id="main">
+            
+            
+        </main>
+         -->
+        </div>
     <footer id="footer">
         <nav id="footer1">
             <ul>
@@ -151,4 +249,5 @@
     </footer>
     </div>
 </body>
+
 </html>
