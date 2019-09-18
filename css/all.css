@@ -6,6 +6,10 @@ html, body{
     background-color: #e2e0e0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 p{
     margin:0;
     padding:0;
@@ -37,4 +41,23 @@ a{
 
 .pull-left{
     float: left;
+}
+
+.text-black{
+    color: rgb(37, 37, 37);
+}
+
+.text-gray{
+    color: gray;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+}
+
+iframe{
+ padding: 0px;
+ margin: 0px;
+ border: 0px;
 }
