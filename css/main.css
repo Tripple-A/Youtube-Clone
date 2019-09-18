@@ -1,0 +1,124 @@
+#youtube-video{
+    
+    padding-top: 15px;
+}
+
+#youtube-title{
+    background-color: white;
+    margin-top: 4px;
+    padding-top: 10px;
+    padding-left: 15px; 
+    width:790px;
+    padding-bottom:15px;
+}
+
+#odin-logo{
+    background: green;
+    width: 7%;
+    height: 50px;
+    text-align: center;
+    font-size:50px;
+     
+}
+
+#tee{
+    color: whitesmoke
+}
+
+#odin-title{
+    font-size: 20px;
+    color: black;
+    padding-bottom:8px;
+}
+
+#subscribe{
+    background-color: red;
+    text-align: center;
+    font-size: 15px;
+    padding:2px 1px;
+    width:90%;
+    padding-left:1px;
+    border-bottom-left-radius: 2px;
+    border:0px;
+}
+
+#subscribe-icon{
+    padding-right:2px;
+}
+
+#project{
+    color:gray
+}
+
+#subscribe-text{
+   color: white
+}
+#number{
+    border:1px solid grey;
+    width:25%;
+    text-align: center;
+    padding: 1px;
+    border-bottom-right-radius: 2px;
+    font-size:80%;
+    background-color: rgba(128,128,128, 0.1)
+}
+#all{
+    display: flex
+}
+#aside-info{
+    margin-left:10px;
+}
+#subnum{
+    display: flex;
+    padding-top:5px
+}
+#views{
+    margin-left:50%;
+    font-size:25px;
+    
+}
+#view{
+    margin-top: 20px;
+   
+}
+#blue-line{
+    width:30%;
+    margin-left:60%;
+   border:none;
+   height:3px;
+   background-color: blue;
+   /* position:absolute; */
+   margin-bottom:3px
+}
+#hr-line{
+    /* position:absolute */
+}
+font{
+    color:blue;
+}
+#section2{
+    margin-top: 10px;
+    background-color: white;
+    padding-top:5px;
+    width:775px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:3px
+}
+#explanation{
+    padding-bottom: 15px;
+}
+#show-more{
+    text-align:center;
+    margin-top:1px;
+    margin-bottom:5px;
+    
+}
+
+#loading{
+    text-align: center;
+    width:800px;
+    margin-top:15px;
+    background-color: white;
+    height:100px;
+}
