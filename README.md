@@ -1,5 +1,12 @@
-# Youtube-Clone
-This is a YouTube clone page by MIcroverse students - Biodun and Rama
-## You-Tube Clone
-This page is a You-tube page that meets the requirements of the Odin Project as well as the requirements of Microverse.
-User stories were created using Pivotal-tracker and so far these stories are being updated for excellent UX.
+## Course: HTML & CSS3
+### Project: Embedding Images and Video
+
+#### Contributors
+* [Aheebwa Ramadhan](https://github.com/raheebwa)
+* [Ajibade Abiodun](https://github.com/Tripple-A)
+
+### Project Goal
+To design [this youtube page](http://archive.fo/Bss88) applying only HTML & CSS. 
+
+### Link to the live demo
+https://tripple-a.github.io/Youtube-Clone/
