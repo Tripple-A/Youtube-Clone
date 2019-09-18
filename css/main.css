@@ -81,15 +81,7 @@
     margin-top: 20px;
    
 }
-#blue-line{
-    width:30%;
-    margin-left:60%;
-   border:none;
-   height:3px;
-   background-color: blue;
-   /* position:absolute; */
-   margin-bottom:3px
-}
+
 
 font{
     color:blue;
