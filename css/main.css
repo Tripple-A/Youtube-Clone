@@ -94,6 +94,13 @@
 font{
     color:blue;
 }
+
+#add-ons{
+    display:flex;
+    /* margin-left:30px */
+
+}
+
 #section2{
     margin-top: 10px;
     background-color: white;
@@ -119,4 +126,10 @@ font{
     margin-top:15px;
     background-color: white;
     height:100px;
+    /* display:flex; */
+}
+
+#loading-text{
+    padding-top:40px;
+    margin:0px auto
 }
