@@ -7,6 +7,3 @@
 
 ### Project Goal
 To design [this youtube page](http://archive.fo/Bss88) applying only HTML & CSS. 
-
-### Link to the live demo
-https://tripple-a.github.io/Youtube-Clone/
