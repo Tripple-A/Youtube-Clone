@@ -2,58 +2,56 @@
 
 /* Navbar styles */
 nav#navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #ffffff;
     padding: 20px 40px;
-}
-
-nav#navbar li.nav-link{
-    display: inline;
+    height: 30px;
 }
 
 
-nav#navbar li.nav-link #list-icon{
-    font-size: 25px;
+nav#navbar section #list-icon{
+    font-size: 4vh;
     float:left;
 }
 
-nav#navbar li.nav-link #youtube-logo{
+nav#navbar section #youtube-logo{
     float:left;
-    padding: 0px 20px 0px 20px;
+    padding: 0 5vh;
     /* margin-top: -3px; */
 }
 
-nav#navbar li.nav-link#search{
+nav#navbar section#search{
     /* margin-left: auto; */
     margin: 0px auto;
 }
 
-nav#navbar li.nav-link #search-bar{
+nav#navbar section #search-bar{
     border: 1px solid gray; 
-    width:50%;
-    font-size: 15.5px;
-    float:left;
-    padding: 3.5px 0px;
+    width:100vh;
+    font-size: 2vh;
+    padding: 1vh 0;
     padding-left: 10px;
 }
 
-nav#navbar li.nav-link #search-icon{
+nav#navbar section #search-icon{
     border: 1px solid gray; 
-    padding: 5px 40px;
-    font-size: 15.5px;
-    margin-right: 20px;
-    float: left;
+    padding: 1.2vh 5vh;
+    font-size: 2vh;
     margin-left: -1px;
 }
 
-nav#navbar li.nav-link #upload-icon{
-    font-size: 25px;
+nav#navbar section #upload-icon{
+    font-size: 4vh;
     padding-left: 15%;
+    float: right;
 }
 
 
-nav#navbar li.nav-link #sign-in{
+nav#navbar section #sign-in{
     border: 1px solid dodgerblue; 
-    padding: 3px 10px;
+    padding: 1vh 5vh;
     font-size: 15px;
     background: dodgerblue;
     color: white;
@@ -62,7 +60,7 @@ nav#navbar li.nav-link #sign-in{
     float: right;
 }
 
-nav#navbar li.nav-link #sign-in:hover{
+nav#navbar section #sign-in:hover{
     background: rgb(54, 150, 247);
 }
 
