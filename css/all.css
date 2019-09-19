@@ -1,0 +1,70 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #e2e0e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+p,
+i,
+div {
+  color: gray;
+}
+
+/* #wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+a {
+  color: grey;
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.text-black {
+  color: rgb(37, 37, 37);
+}
+
+.text-gray {
+  color: gray;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: row;
+}
+
+iframe {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}

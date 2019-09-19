@@ -1,0 +1,162 @@
+#main {
+  float: left;
+  width: 59vw;
+  margin-top: 4vh;
+}
+
+#main #youtube-video {
+  /* padding-top: 15px; */
+  width: 100%;
+
+  /* margin: 0 auto; */
+  height: 450px;
+}
+
+#main #youtube-title {
+  background-color: white;
+  margin-top: 1vh;
+  width: 100%;
+  padding: 1%;
+}
+
+#tee {
+  color: whitesmoke;
+}
+
+#odin-title {
+  font-size: 20px;
+  color: black;
+  padding-bottom: 8px;
+}
+
+#subscribe-text {
+  color: white;
+}
+
+#all {
+  display: flex;
+  flex-direction: row;
+}
+
+#odin-logo {
+  background: #689f39;
+  width: 7%;
+  height: 50px;
+  text-align: center;
+  font-size: 50px;
+  float: left;
+}
+
+#aside-info {
+  margin-left: 10px;
+  float: right;
+}
+
+#aside-info #subnum {
+  display: flex;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+#aside-info #project {
+  color: gray;
+  padding: 2px 0;
+  margin-bottom: 4px;
+}
+
+#aside-info #subscribe {
+  background-color: #f00;
+  text-align: center;
+  font-size: 15px;
+  padding: 4px 3px;
+  width: 80%;
+  padding-left: 3px;
+  margin: -1px -1px -1px -1px;
+  border-radius: 2px;
+}
+
+#subscribe-icon {
+  padding-right: 2px;
+  color: #fff;
+}
+
+#number {
+  /* border:1px solid grey; */
+
+  /* width:25%; */
+  text-align: center;
+  font-size: 15px;
+  padding: 4px 3px;
+  border-bottom-right-radius: 2px;
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+#views {
+  margin-left: 50%;
+  font-size: 25px;
+}
+
+#view {
+  margin-top: 20px;
+}
+
+#blue-line {
+  width: 30%;
+  float: right;
+  border: none;
+  height: 3px;
+  background-color: dodgerblue;
+
+  /* position:absolute; */
+  margin-bottom: -3px;
+}
+
+font {
+  color: blue;
+}
+
+#add-ons {
+  display: flex;
+
+  /* margin-left:30px */
+}
+
+#section2 {
+  margin-top: 10px;
+  background-color: white;
+  padding: 1vh 1vw;
+  width: 100%;
+}
+
+#explanation {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#show-more {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+#loading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 1vh;
+  background-color: white;
+  height: 100px;
+}
+
+#loading span {
+  margin: 0 auto;
+}
+
+#share-bar {
+  padding: 3vh 1vw;
+}
+
+#share-bar span {
+  margin-right: 1vw;
+}
