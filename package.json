@@ -1,0 +1,26 @@
+{
+  "name": "Youtube-Clone",
+  "version": "1.0.0",
+  "description": "#### Contributors * [Aheebwa Ramadhan](https://github.com/raheebwa) * [Ajibade Abiodun](https://github.com/Tripple-A)",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint *.css --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tripple-A/Youtube-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tripple-A/Youtube-Clone/issues"
+  },
+  "homepage": "https://github.com/Tripple-A/Youtube-Clone#readme",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0"
+  }
+}
