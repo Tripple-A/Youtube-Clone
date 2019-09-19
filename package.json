@@ -5,7 +5,7 @@
   "main": "stylelint.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:css": "stylelint *.css --fix"
+    "lint:css": "stylelint css/*.css --fix"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,8 @@
   "devDependencies": {
     "prettier": "^1.18.2",
     "stylelint": "^11.0.0",
-    "stylelint-config-standard": "^19.0.0"
+    "stylelint-config-prettier": "^5.2.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-prettier": "^1.1.1"
   }
 }
