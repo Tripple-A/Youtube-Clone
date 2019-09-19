@@ -1,103 +1,102 @@
 /* Whole header styles */
 
 /* Navbar styles */
-nav#navbar{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 20px 40px;
-    height: 50px;
+nav#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px 40px;
+  height: 50px;
 }
 
-
-nav#navbar section #list-icon{
-    font-size: 4vh;
-    float:left;
+nav#navbar section #list-icon {
+  font-size: 4vh;
+  float: left;
 }
 
-nav#navbar section #youtube-logo{
-    float:left;
-    padding: 0 0 0 1vw;
-    /* margin-top: -3px; */
+nav#navbar section #youtube-logo {
+  float: left;
+  padding: 0 0 0 1vw;
+
+  /* margin-top: -3px; */
 }
 
-nav#navbar section#search{
-    /* margin-left: auto; */
-    margin: 0px auto;
+nav#navbar section#search {
+  /* margin-left: auto; */
+  margin: 0 auto;
 }
 
-nav#navbar section #search-bar{
-    border: 1px solid gray; 
-    width:100vh;
-    font-size: 2vh;
-    padding: 1vh 0;
-    padding-left: 10px;
+nav#navbar section #search-bar {
+  border: 1px solid gray;
+  width: 100vh;
+  font-size: 2vh;
+  padding: 1vh 0;
+  padding-left: 10px;
 }
 
-nav#navbar section #search-icon{
-    border: 1px solid gray; 
-    padding: 1.2vh 5vh;
-    font-size: 2vh;
-    margin-left: -1px;
+nav#navbar section #search-icon {
+  border: 1px solid gray;
+  padding: 1.2vh 5vh;
+  font-size: 2vh;
+  margin-left: -1px;
 }
 
-#toggle{
-    font-size: 5vh;
-    color:dodgerblue;
-    padding-right:15px
+#toggle {
+  font-size: 5vh;
+  color: dodgerblue;
+  padding-right: 15px;
 }
 
-nav#navbar section #upload-icon{
-    font-size: 4vh;
-    padding-left: 15%;
-    float: right;
+nav#navbar section #upload-icon {
+  font-size: 4vh;
+  padding-left: 15%;
+  float: right;
 }
 
-
-nav#navbar section #sign-in{
-    border: 1px solid dodgerblue; 
-    padding: 1vh 5vh;
-    font-size: 15px;
-    background: dodgerblue;
-    color: white;
-    border-radius: 2px;
-    margin-left: 20px;
-    float: right;
+nav#navbar section #sign-in {
+  border: 1px solid dodgerblue;
+  padding: 1vh 5vh;
+  font-size: 15px;
+  background: dodgerblue;
+  color: white;
+  border-radius: 2px;
+  margin-left: 20px;
+  float: right;
 }
 
-nav#navbar section #sign-in:hover{
-    background: rgb(54, 150, 247);
+nav#navbar section #sign-in:hover {
+  background: rgb(54, 150, 247);
 }
 
 /* Language alert window styles */
-#language-alert-window{
-    /* padding: 10px 40px; */
-    background: white;
-    margin-top: 10px;
-    border: 2px solid dodgerblue;
+#language-alert-window {
+  /* padding: 10px 40px; */
+  background: white;
+  margin-top: 10px;
+  border: 2px solid dodgerblue;
 }
 
-#language-alert-window #language-alert-window-header{
-     padding: 5px 30px;
-    background-color: dodgerblue;
-    color: white;
+#language-alert-window #language-alert-window-header {
+  padding: 5px 30px;
+  background-color: dodgerblue;
+  color: white;
 }
 
-#language-alert-window #language-alert-window-header i{
-    color: #ffffff;
-    /* padding: 0px 5px; */
+#language-alert-window #language-alert-window-header i {
+  color: #fff;
+
+  /* padding: 0px 5px; */
 }
 
-#language-alert-window #language-alert-window-header i#close{
-    float: right;
+#language-alert-window #language-alert-window-header i#close {
+  float: right;
 }
 
-#language-alert-window #language-alert-window-body{
-    padding: 10px 40px;
-    
- }
+#language-alert-window #language-alert-window-body {
+  padding: 10px 40px;
+}
 
-#language-alert-window #language-alert-window-body p{
-    color: black;
+#language-alert-window #language-alert-window-body p {
+  color: black;
 }

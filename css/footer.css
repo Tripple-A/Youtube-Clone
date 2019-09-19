@@ -1,50 +1,49 @@
-#youtube-footer{
-    width:8%;
-    height:23px;
-    margin-top:5px;
-    /* margin-left:5px; */
+#youtube-footer {
+  width: 8%;
+  height: 23px;
+  margin-top: 5px;
+
+  /* margin-left:5px; */
 }
 
 .fa option {
-
-    font-weight: 900;
+  font-weight: 900;
 }
 
-nav li{
-    list-style-type: none;
-    display:inline;
-    padding-left:18px;
-    
+nav li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 18px;
 }
 
-#footer1 ul{
-    margin-top:5px;
-    padding-top:10px;
-    margin-bottom: 5px;
-    padding-bottom:10px;
-    
+#footer1 ul {
+  margin-top: 5px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
 
-#footer{
-    background-color: white;
-    margin-bottom:0px
-}
-button,select{
-    background-color:rgba(128,128,128,0.2);
-    height:30px;
-    text-align: center;
-    border:none;
-    border-radius:3px;
-    margin-left:3px;
-    margin-right:3px;
-    border:1px solid grey
+#footer {
+  background-color: white;
+  margin-bottom: 0;
 }
 
-#footer2 ul{
-    padding-bottom:2px;
-
+button,
+select {
+  background-color: rgba(128, 128, 128, 0.2);
+  height: 30px;
+  text-align: center;
+  border-radius: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border: 1px solid grey;
 }
-#footer3 ul{
-    padding-bottom:20px;
-    font-size:80%;
+
+#footer2 ul {
+  padding-bottom: 2px;
+}
+
+#footer3 ul {
+  padding-bottom: 20px;
+  font-size: 80%;
 }

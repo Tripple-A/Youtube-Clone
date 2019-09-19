@@ -1,13 +1,13 @@
-/*  */
-html, body {
-	margin: 0;
+html,
+body {
+  margin: 0;
   padding: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #e2e0e0;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 p {
@@ -15,23 +15,30 @@ p {
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: black;
 }
 
-p, i, div {
+p,
+i,
+div {
   color: gray;
 }
 
-/* #wrapper{ 
+/* #wrapper{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 } */
 
 a {
-	color: grey;
-	text-decoration: none;
+  color: grey;
+  text-decoration: none;
 }
 
 /* Utility Classes */
@@ -52,12 +59,12 @@ a {
 }
 
 #main-content {
-   display: flex;
+  display: flex;
   flex-direction: row;
 }
 
 iframe {
- padding: 0px;
- margin: 0px;
- border: 0px;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
