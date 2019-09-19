@@ -1,32 +1,33 @@
-#aside{
-    float:right;
-    width: 39vw;
-    background-color: white;
-    margin-left: 2vw;
-    margin-top: 4vh;
-    padding: 2vh 2vw;
+#aside {
+  float: right;
+  width: 39vw;
+  background-color: white;
+  margin-left: 2vw;
+  margin-top: 4vh;
+  padding: 2vh 2vw;
 }
 
-.sidebar-image{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 2vh;
+.sidebar-image {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
 }
 
-#autoplay .pull-right{
-    margin-left: 20vw;
+#autoplay .pull-right {
+  margin-left: 20vw;
 }
 
-.sidebar-image div{
-    padding: 0 1vw;
+.sidebar-image div {
+  padding: 0 1vw;
 }
 
-.sidebar-image div h3{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 2vh;
+.sidebar-image div h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2vh;
 }
-.thumbnail{
-    width:200px;
-    height:120px
+
+.thumbnail {
+  width: 200px;
+  height: 120px;
 }
