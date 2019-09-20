@@ -10,24 +10,24 @@ nav#navbar {
   height: 50px;
 }
 
-nav#navbar section #list-icon {
+nav#navbar div #list-icon {
   font-size: 4vh;
   float: left;
 }
 
-nav#navbar section #youtube-logo {
+nav#navbar div #youtube-logo {
   float: left;
   padding: 0 0 0 1vw;
 
   /* margin-top: -3px; */
 }
 
-nav#navbar section#search {
+nav#navbar div#search {
   /* margin-left: auto; */
   margin: 0 auto;
 }
 
-nav#navbar section #search-bar {
+nav#navbar div #search-bar {
   border: 1px solid gray;
   width: 100vh;
   font-size: 2vh;
@@ -35,7 +35,7 @@ nav#navbar section #search-bar {
   padding-left: 10px;
 }
 
-nav#navbar section #search-icon {
+nav#navbar div #search-icon {
   border: 1px solid gray;
   padding: 1.2vh 5vh;
   font-size: 2vh;
@@ -48,13 +48,13 @@ nav#navbar section #search-icon {
   padding-right: 15px;
 }
 
-nav#navbar section #upload-icon {
+nav#navbar div #upload-icon {
   font-size: 4vh;
   padding-left: 15%;
   float: right;
 }
 
-nav#navbar section #sign-in {
+nav#navbar div #sign-in {
   border: 1px solid dodgerblue;
   padding: 1vh 5vh;
   font-size: 15px;
@@ -65,7 +65,7 @@ nav#navbar section #sign-in {
   float: right;
 }
 
-nav#navbar section #sign-in:hover {
+nav#navbar div #sign-in:hover {
   background: rgb(54, 150, 247);
 }
 
