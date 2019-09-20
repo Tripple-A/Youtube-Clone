@@ -1,12 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Youtube-Clone</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-    
+    <div id="wrapper">
+        <header id="header">
+            <nav id="navbar">
+                <div><i id="list-icon" class="fa fa-list"></i></div>
+                <div><img id="youtube-logo" src="images/youtube-logo.png" alt="logo" width="100"></div>
+                <div id="search">
+                    <form action="#">
+                        <input placeholder="Search" type="text" name="search" id="search-bar"><i id="search-icon"
+                            class="fa fa-search"></i>
+                    </form>
+                </div>
+                <div><i id="toggle" class="fa fa-toggle-on"></i></div>
+                <div><i class="fa fa-upload" id="upload-icon"></i></div>
+                <div><button id="sign-in">Sign In</button></div>
+            </nav>
+        </header>
+        <div id="main-content">
+            <main id="main">
+                <div>
+                    <iframe id="youtube-video" src="https://www.youtube.com/embed/we2IveDp1lg/?controls=1"></iframe>
+                </div>
+
+                <section id="youtube-title">
+                    <h1 id="odin-title">Contributing to Open Source Part I: The Easy Way</h1>
+                    <div id="all">
+                        <div id="odin-logo">
+                            <p id="tee">T</p>
+                        </div>
+
+                        <div id="aside-info">
+                            <div>
+                                <a id="project">The Odin Project</a>
+                            </div>
+                            <div id="subnum">
+                                <div id="subscribe">
+                                    <i id="subscribe-icon" class="fa fa-youtube-play"></i>
+                                    <a id="subscribe-text">Subscribe</a>
+                                </div>
+                                <div id="number">
+                                    <p>799</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="views">
+                            <p id="view">50,500 views</p>
+                        </div>
+                    </div>
+
+                    <hr id="blue-line">
+                    <hr id="hr-line">
+
+                    <div id="share-bar">
+                        <div class="pull-left">
+                            <span><i class="fa fa-plus"></i> Add to</span>
+                            <span><i class="fa fa-share"></i> Share</span>
+                            <span><i class="fa fa-ellipsis-h"></i> More</span>
+                        </div>
+                        <div class="pull-right">
+                            <span><i class="fa fa-thumbs-up"></i> 1234</span>
+                            <span><i class="fa fa-thumbs-down"></i> 456</span>
+                        </div>
+                    </div>
+
+                </section>
+
+                <div id="section2">
+                    <p id="explanation" class="text-black">
+                        <b> Published on Feb 27, 2014</b><br>
+                        How do you contribute to open source? In this video,
+                        I'll describe the easiest way to make a simple contribution
+                        to an open source project -- without using the command line,
+                        a text editor, "forking a repo", or even touching Git outside of Github.
+                        I'll also describe what kinds of contributions open source software projects
+                        are typically looking for. As an example, I use submitting a student solution
+                        to a web development exercise from The Odin Project, a free online curriculum
+                        for learning web development with Ruby on Rails. You can find more information
+                        about that project at http://theodinproject.com.
+
+                    </p>
+                    <hr>
+                    <div id="show-more"><a href="#" class="text-gray">SHOW MORE</a></div>
+                </div>
+                <div id="loading">
+                    <span><i class="fa fa-spinner"></i> loading</span>
+                </div>
+            </main>
+            <aside id="aside">
+                <div id="autoplay" class="sidebar-image">
+                    <span class="pull-left text-black">Up Next</span>
+                    <span class="pull-right text-gray">Autoplay <i class="fa fa-info-circle"></i></span>
+                </div>
+                <section class="sidebar-image">
+                    <img src="/images/pic2.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>How To Make Your Facebook Completely Private</h3>
+                        <span class="channel">Tuto Vids</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <hr>
+                <section class="sidebar-image">
+                    <img src="/images/pic3.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>How To Open Facebook Account</h3>
+                        <span class="channel">Davido Nyong</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="/images/pic4.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>How To Convert pdf to word without software</h3>
+                        <span class="channel">Kareem Hamdadi</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="/images/pic5.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Java Complete Project For Beginners With Source Code - Part 1/2</h3>
+                        <span class="channel">Programming Gurus</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="images/pic1.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>How To Download YouTube Thumbnail (2018)</h3>
+                        <span class="channel">Ask Creators</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="/images/pic6.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Java Complete Project For Beginners With Source Code - Part 2/2</h3>
+                        <span class="channel">Best Sharp</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="/images/pic7.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Swift Programming Tutorial for Beginners (Full Tutorial)</h3>
+                        <span class="channel">CodeWithChris</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+                <section class="sidebar-image">
+                    <img src="/images/pic8.jpg" alt="image" class="thumbnail">
+                    <div class="image-desc">
+                        <h3>Learn Assembly Language : Assembly Programming Tutorial for Beginners!</h3>
+                        <span class="channel">Eddie Barry</span><br>
+                        <span class="views">12345 views</span>
+                    </div>
+                </section>
+            </aside>
+            <!-- 
+        <main id="main">
+            
+            
+        </main>
+         -->
+        </div>
+        <footer id="footer">
+            <nav id="footer1">
+                <ul>
+                    <li><img id="youtube-footer" src="images/youtube-logo.png" alt="youtube-logo"></li>
+                    <li><select name="language">
+                            <option>Language:English
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        <select>
+                            <option value="location">
+                                Location:Netherlands
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        <select name="mode">
+                            <option value="mode">
+                                Restricted Mode:Off
+                            </option>
+                        </select>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa fa-hourglass"></i> History
+                        </button>
+                    </li>
+                    <li>
+                        <button>
+                            <i class="fa fa-question-circle"></i>Help
+                        </button>
+                    </li>
+
+                </ul>
+            </nav>
+            <hr>
+
+            <nav id="footer2">
+                <ul>
+                    <li>About</li>
+                    <li>Press</li>
+                    <li>Copyright</li>
+                    <li>Creators</li>
+                    <li>Advertise</li>
+                    <li>Developers</li>
+                </ul>
+            </nav>
+            <nav id="footer3">
+                <ul>
+                    <li> Terms</li>
+                    <li>Privacy</li>
+                    <li>Policy & Safety</li>
+                    <li>Test new features</li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
+
 </html>
