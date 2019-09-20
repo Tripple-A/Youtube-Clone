@@ -12,4 +12,4 @@ To design [this youtube page](http://archive.fo/Bss88) applying only HTML & CSS.
 * The YouTube clone page was created with purely Html and Css;
 * Flexbox was deployed for some Css stylings;
 * Font awesome icons were used
-* Feel free to peruse
+* Feel free to peruse [here](https://tripple-a.github.io/Youtube-Clone/)
