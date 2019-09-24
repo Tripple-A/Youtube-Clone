@@ -8,6 +8,10 @@
 ### Project Goal
 To design [this youtube page](http://archive.fo/Bss88) applying only HTML & CSS. 
 
+### Live Demo
+
+The live demo is [here](https://tripple-a.github.io/Youtube-Clone/)
+
 ### Project Achieved
 * The YouTube clone page was created with purely Html and Css;
 * Flexbox was deployed for some Css stylings;
